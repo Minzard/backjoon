@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"storage":"container","type":"cpp","detailedtype":"c","author":"46188933_h5kg2_naver","name":"backjoon_cpp","description":"This si repository for backjoon example programming.","date":"2019/3/23 16:6:44","plugins":{"goorm.plugin.cpp":[{"plugin.cpp.compiler_type":"gcc","plugin.cpp.main":"main","plugin.cpp.source_path":"src/","plugin.cpp.makefile_path":"make","plugin.cpp.build_path":"bin/","plugin.cpp.build_option":"-g","plugin.cpp.makefile_option":"false","plugin.cpp.run_option":""}]},"is_user_plugin":false}
+=======
+{"storage":"container","type":"python","detailedtype":"default","author":"46188933_h5kg2_naver","name":"backjoon","description":"This si repository for backjoon example programming.","date":"2019/3/23 16:5:44","plugins":{"goorm.plugin.python":[{"plugin.python.compiler_type":"python3","plugin.python.main":"index","plugin.python.source_path":"","plugin.python.run_on":"console","plugin.python.run_option":"","plugin.python.log_path":"./server.log"}]},"is_user_plugin":false}
+>>>>>>> 4274dba73f7ecb3c781b9bdb6292d8a30b94fa25
