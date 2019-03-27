@@ -1,34 +1,31 @@
 #include <iostream>
-using namespace std;
+using namespace std; // 표준 namespace를 사용
 
-int add_num(int a, int b)	// 두 수를 더하는 함수
-{
+int sub_num(int a, int b) {
 	int sum;
 
-	sum = a+b;	
+	sum = a-b;
 	return sum;
 }
 
-
 int main() {
-
 	int sum;
-
+	
 	while(true) {
 		int A, B;
-		
+
 		cout << "A, B를 입력해 주세요 : ";
-		cin >> A;
-		cin >> B;
-	
+		cin >> A >> B;
+
 		if(A < 0 || A > 10 || B < 0 || B > 10)
 			cout << "잘못된 숫자입니다." << endl;
-		else {	
-			sum = add_num(A, B);
+
+		else {
+			sum = sub_num(A, B);
 			break;
 		}
 	}
 
-	cout << "두 수의 합은 " << sum << "입니다." << endl;
-	return 0;
+		cout << "두 수의 차는 " << sum << "입니다." << endl;
+		return 0;
 }
